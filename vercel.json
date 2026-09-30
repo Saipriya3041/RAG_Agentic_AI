@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/*.py": {
+      "excludeFiles": "tests/**"
+    }
+  },
+  "builds": [
+    { "src": "api/*.py", "use": "@vercel/python" }
+  ]
+}
