@@ -3,6 +3,5 @@
     "api/*.py": {
       "excludeFiles": "tests/**"
     }
-  },
-
+  }
 }
